@@ -15,3 +15,20 @@ header a{
     
     
 }
+.text_perevagu{
+    color:#e9ab00
+
+}
+.perevagu{width: 300px;
+    height: 300px;
+    border: 2px solid #80c904;
+    border-radius: 10px;
+    text-align: center;
+    background-color: #f5f5dc;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200;
+  width: 400
+}
