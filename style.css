@@ -15,6 +15,15 @@ header a{
     
     
 }
+.name_short_opis{
+    color:#1f2804;
+    font-size: 39px;
+    text-align: center;
+}
+.short_opis{
+    text-align: center;
+    font-size: 18px
+}
 .text_perevagu{
     color:#e9ab00
 
