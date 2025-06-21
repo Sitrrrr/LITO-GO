@@ -1,17 +1,22 @@
 .logo{
-    width: 135px;
-    height: 135px;
+    display: inline;
+    width: 200px;
+    height: 200px;
+    
+
 }
 header{
     background-color: #A2FF55;
+    height: 200px;
+    width: 100%;
 }
 header a{
-    border: 3px solid #3C8600;
+    
+   border: 3px solid #3C8600;
     background-color: #387C00;
     color: #A2FF55;
     text-decoration: none;
-    font-size: 40px;
-    text-align: center;
-    
-    
+    font-size: 30px;
+    margin: 85px;
 }
+    
