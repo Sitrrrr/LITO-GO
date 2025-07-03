@@ -70,7 +70,7 @@ max-width: 800px;
   text-align: justify;
 }
 
-.register-button {
+.register {
   display: inline-block;
   background-color: #66bb6a;
   color: #ffffff;
@@ -85,7 +85,7 @@ max-width: 800px;
   
 }
 
-.register-button:hover {
+.register:hover {
   background-color: #43a047;
   transform: scale(1.05);
   box-shadow: 0 6px 14px rgba(0, 100, 0, 0.3);
@@ -141,7 +141,7 @@ max-width: 800px;
   max-height: 1000px;
 }
 
-#priceTable.hidden {
+#priceTable.table {
   max-height: 0;
   padding: 0;
 }

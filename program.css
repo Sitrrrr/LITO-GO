@@ -42,7 +42,7 @@ body {
 }
 
 
-.schedule-container {
+.rozklad{
   max-width: 800px;
   margin: auto;
   background-color: #e9ffe9;
@@ -52,30 +52,30 @@ body {
   padding: 30px 20px;
 }
 
-.schedule-container h2 {
+.rozklad h2 {
   text-align: center;
   color: #1c501f;
   margin-bottom: 20px;
 }
 
-.schedule-table {
+.rozkladtable {
   width: 100%;
   border-collapse: collapse;
 }
 
-.schedule-table th {
+.rozkladtable th {
   background-color: #A2FF53;
   color: #103113;
   padding: 12px;
   font-size: 16px;
 }
 
-.schedule-table td {
+.rozkladtable td {
   padding: 10px 12px;
   border-bottom: 1px solid #acd0ae;
 }
 
-.schedule-table tr:nth-child(even) {
+.rozrladtable tr:nth-child(even) {
   background-color: #f9fbe7;
 }
 
@@ -148,7 +148,7 @@ padding: 30px 20px;}
   margin: 0;
 }
 
- .accordion {
+ .aktiv {
       background: linear-gradient(90deg, #cde990, #f5e678);
       color: #2d3a10;
       cursor: pointer;
@@ -163,7 +163,7 @@ padding: 30px 20px;}
       box-shadow: 0 4px 10px rgba(60, 80, 40, 0.2);
     }
 
-    .accordion:hover {
+    .aktiv:hover {
       background: linear-gradient(90deg, #d6f5a3, #fdf187);
     }
 
