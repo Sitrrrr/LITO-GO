@@ -1,7 +1,7 @@
 
   function toggleTable() {
     const table = document.getElementById("priceTable");
-    const title = document.querySelector(".prices h2");
+    const title = document.querySelector(".price h2");
     table.classList.toggle("hidden");
 
     if (table.classList.contains("hidden")) {
