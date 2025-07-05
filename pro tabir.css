@@ -1,24 +1,17 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=Share+Tech&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap");
-
-body {
-  font-family: "Source Code Pro", monospace;
-  margin: 0;
-}
-
 .logo {
   width: 135px;
   height: 135px;
 }
 
-header {
-  background-color: #a2ff55;
-  margin-bottom: 20px;
-}
+header{
+    background-color: #A2FF55;
+    margin-bottom: 20px;}
 
 header {
   background-color: #a2ff55;
   display: flex;
   align-items: center;
+
 }
 
 header a {
@@ -43,27 +36,16 @@ nav a {
   box-shadow: 0 4px 8px rgba(0, 3, 7, 0.5);
 }
 
-
-.history_name {
-  text-align: center;
+body {
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=Share+Tech&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+   font-family: "Source Code Pro", monospace;
+  margin: 0;
 }
 
-.history {
-  text-align: center;
-    transition: 0.3s;
-  background-color: white;
-  width: 999px;
-  text-align: center;
-  border-radius: 30px;
-  padding: 25px;
-}
 
-.history:hover{
-  transform: scale(1.05);
-  box-shadow: 6px 9px 15px #000000;
+.history_name{
+  text-align: center;
 }
-
-.div{
-  display: flex;
-  justify-content: center;
+.history{
+  text-align: center;
 }

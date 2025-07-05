@@ -1,5 +1,5 @@
-const acc = document.querySelector(".accordion");
-const panel = document.querySelector(".panel");
+const acc = document.querySelector(".aktiv");
+  const panel = document.querySelector(".panel");
 
 acc.addEventListener("click", function () {
   this.classList.toggle("active");

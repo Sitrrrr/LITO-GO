@@ -1,0 +1,25 @@
+body{
+    text-align: center;
+    background-image: url(https://img.freepik.com/free-vector/business-background-vector-blue-abstract-style_53876-126697.jpg?semt=ais_hybrid&w=740)
+    ;
+    background-size: cover;
+}
+.vhid{
+    text-decoration: none;
+    font-size: 40px;
+    text-align: left;
+    
+}
+h1{
+    font-size: 80px;
+    margin-top: 190px;
+}
+.cod{
+    margin: 10px;
+    font-size: 30px;
+}
+.dali{
+    font-size: 50px;
+    text-decoration: none;
+    margin-top: 40px;
+}
