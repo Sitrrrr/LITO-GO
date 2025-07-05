@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=Share+Tech&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap");
+
 body {
   font-family: "Source Code Pro", monospace;
   margin: 0;
@@ -19,6 +20,7 @@ header {
   display: flex;
   align-items: center;
 }
+
 header a {
   border: 3px solid #3c8600;
   background-color: #387c00;
@@ -45,6 +47,23 @@ nav a {
 .history_name {
   text-align: center;
 }
+
 .history {
   text-align: center;
+    transition: 0.3s;
+  background-color: white;
+  width: 999px;
+  text-align: center;
+  border-radius: 30px;
+  padding: 25px;
+}
+
+.history:hover{
+  transform: scale(1.05);
+  box-shadow: 6px 9px 15px #000000;
+}
+
+.div{
+  display: flex;
+  justify-content: center;
 }
