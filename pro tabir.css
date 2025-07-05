@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=Share+Tech&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap");
+body {
+  font-family: "Source Code Pro", monospace;
+  margin: 0;
+}
+
+.logo {
+  width: 135px;
+  height: 135px;
+}
+
+header {
+  background-color: #a2ff55;
+  margin-bottom: 20px;
+}
+
+header {
+  background-color: #a2ff55;
+  display: flex;
+  align-items: center;
+}
+header a {
+  border: 3px solid #3c8600;
+  background-color: #387c00;
+  color: #a2ff55;
+  text-decoration: none;
+  font-size: 37px;
+  text-align: center;
+}
+
+nav {
+  width: 85%;
+  display: flex;
+  justify-content: center;
+}
+
+nav a {
+  margin: 0px 65px;
+  padding: 5px 10px;
+  border-radius: 30px;
+  box-shadow: 0 4px 8px rgba(0, 3, 7, 0.5);
+}
+
+
+.history_name {
+  text-align: center;
+}
+.history {
+  text-align: center;
+}
