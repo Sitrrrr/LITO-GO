@@ -188,8 +188,6 @@ color: #3f9643;
 
 footer{
   background-color: #cadcbb;
-<<<<<<< HEAD
-=======
   height: 180px;
   display: flex;
   flex-direction: column;
@@ -221,5 +219,4 @@ footer a:hover {
 footer img {
     width: 25px;
     margin: 5px;
->>>>>>> 83359415e25445336ab55eb17511e5baf5322037
 }
