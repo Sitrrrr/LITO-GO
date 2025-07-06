@@ -1,0 +1,243 @@
+.logo {
+    width: 135px;
+    height: 135px;
+}
+
+header {
+    background-color: #A2FF55;
+    margin-bottom: 20px;
+}
+
+header {
+    background-color: #a2ff55;
+    display: flex;
+    align-items: center;
+
+}
+
+header a {
+  border: 3px solid #3c8600;
+  background-color: #387c00;
+  color: #a2ff55;
+  text-decoration: none;
+  font-size: 37px;
+  text-align: center;
+}
+
+nav {
+    width: 85%;
+    display: flex;
+    justify-content: center;
+}
+
+nav a {
+    margin: 0px 65px;
+    padding: 5px 10px;
+    border-radius: 30px;
+    box-shadow: 0 4px 8px rgba(0, 3, 7, 0.5);
+}
+
+
+body {
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=Share+Tech&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+   font-family: "Source Code Pro", monospace;
+  margin: 0;
+}
+
+.participation {
+  max-width: 960px;
+  margin: 60px auto;
+  padding: 40px;
+  background: #fffff5;
+  border-radius: 18px;
+  box-shadow: 0 8px 20px rgba(0, 80, 0, 0.08);
+  font-family: 'Segoe UI', sans-serif;
+  color: #2f3e2e;
+}
+
+.uchast-u-tabori {
+  text-align: center;
+  font-size: 34px;
+  color: #2e7d32;
+  margin-bottom: 40px;
+  text-transform: uppercase;
+}
+
+.p-block {
+  background: #f9fff0;
+  border-left: 6px solid #fbc02d;
+  padding: 20px 25px;
+  border-radius: 14px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.04);
+  margin-bottom: 30px;
+}
+
+.p-block h3 {
+  color: #388e3c;
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+.p-block ul, .p-block ol {
+  padding-left: 20px;
+  font-size: 16px;
+}
+
+.p-block li {
+  margin-bottom: 8px;
+  line-height: 1.5;
+}
+
+.toggle-btn {
+  cursor: pointer;
+  font-weight: normal;
+  font-size: 16px;
+  color: #f9a825;
+  margin-left: 10px;
+  text-decoration: underline;
+}
+
+#includes-block ul {
+  margin-top: 10px;
+  padding-left: 20px;
+}
+
+#includes-block h4 {
+  margin-top: 10px;
+  color: #388e3c;
+  font-size: 18px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+  font-size: 16px;
+}
+
+table th, table td {
+  border: 1px solid #cce6bc;
+  padding: 10px;
+  text-align: center;
+}
+
+table th {
+  background-color: #e6f5d0;
+  color: #2e7d32;
+}
+
+table td {
+  background-color: #ffffff;
+}
+
+.schedule-wrapper {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
+.schedule-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+
+.schedule-card {
+  flex: 1 1 calc(50% - 12px);
+  background: linear-gradient(135deg, #fffde7, #f1f8e9);
+  border: 2px solid #c5e1a5;
+  padding: 20px 24px;
+  border-radius: 16px;
+  box-shadow: 0 4px 16px rgba(139, 195, 74, 0.2);
+}
+
+.schedule-card h3 {
+  font-size: 20px;
+  color: #33691e;
+  margin-bottom: 12px;
+}
+
+.schedule-card ul {
+  padding-left: 20px;
+  font-size: 16px;
+  color: #455a64;
+}
+
+.schedule-card li {
+  margin-bottom: 6px;
+}
+
+.schedule-card p {
+  font-size: 16px;
+  color: #455a64;
+  line-height: 1.5;
+}
+
+@media (max-width: 768px) {
+  .schedule-card {
+    flex: 1 1 100%;
+  }
+}
+
+.custom-register-wrapper {
+  max-width: 960px;
+  margin: 0 auto 40px auto;
+  padding: 0 16px;
+}
+
+.custom-register-block {
+  background: linear-gradient(145deg, #e8f5e9, #fffde7);
+  border: 2px dashed #81c784;
+  border-radius: 18px;
+  padding: 25px 30px;
+  box-shadow: inset 0 0 10px rgba(200, 230, 201, 0.5);
+}
+
+.custom-register-block h3 {
+  color: #2e7d32;
+  font-size: 24px;
+  margin-bottom: 12px;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.custom-register-block ol {
+  font-size: 17px;
+  color: #37474f;
+  padding-left: 24px;
+  line-height: 1.6;
+}
+
+.custom-register-block li {
+  margin-bottom: 10px;
+  position: relative;
+}
+
+.custom-register-block li::marker {
+  color: #fbc02d;
+}
+
+.register-button-wrapper {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.register-btn {
+  display: inline-block;
+  background-color: #66bb6a;
+  color: #fff;
+  padding: 12px 15px;
+  border-radius: 30px;
+  font-size: 18px;
+  text-decoration: none;
+  box-shadow: 0 4px 10px rgba(102, 187, 106, 0.4);
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.register-btn:hover {
+  background-color: #558b2f;
+  transform: scale(1.05);
+}
