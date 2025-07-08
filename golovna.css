@@ -29,7 +29,7 @@ header a {
   padding: 30px 20px;
   max-width: 800px;
   margin: auto;
-  background-image: linear-gradient(to right, white, #abff66, white);
+  background-image: linear-gradient(to right, rgb(228, 255, 255), #abff66, rgb(228, 255, 255));
 }
 
 .short_opis {
@@ -81,7 +81,7 @@ max-width: 800px;
   padding: 0 20px;
   font-size: 16px;
   text-align: justify;
-  background-image: linear-gradient(to top, white, #e1feca, white);
+  background-image: linear-gradient(to top, rgb(228, 255, 255), #e1feca, rgb(228, 255, 255));
 }
 
 .register {
@@ -184,6 +184,7 @@ body {
   @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=Share+Tech&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
    font-family: "Source Code Pro", monospace;
   margin: 0;
+  background-color: rgb(228, 255, 255);
 }
 
 .more_info:hover{

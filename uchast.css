@@ -42,6 +42,7 @@ body {
   @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=Share+Tech&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
    font-family: "Source Code Pro", monospace;
   margin: 0;
+  background-color: rgb(228, 255, 255);
 }
 
 .participation {
