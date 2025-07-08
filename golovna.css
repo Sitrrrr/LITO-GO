@@ -1,18 +1,20 @@
 .logo {
-  width: 135px;
-  height: 135px;
+    width: 135px;
+    height: 135px;
 }
-
-header{
-    background-color: #A2FF55;
-    margin-bottom: 20px;}
 
 header {
-  background-color: #a2ff55;
-  display: flex;
-  align-items: center;
+    background-color: #A2FF55;
+    margin-bottom: 20px;
+}
+
+header {
+    background-color: #a2ff55;
+    display: flex;
+    align-items: center;
 
 }
+
 header a {
   border: 3px solid #3c8600;
   background-color: #387c00;
@@ -22,45 +24,55 @@ header a {
   text-align: center;
 }
 
-.opis1{
+.opis1 {
     text-align: center;
   padding: 30px 20px;
   max-width: 800px;
   margin: auto;
-  background-image: linear-gradient(to right, white, #abff66, white);
+  background-image: linear-gradient(to right, rgb(228, 255, 255), #abff66, rgb(228, 255, 255));
 }
 
 .short_opis {
-  text-align: center;
-  font-size: 18px;
+    text-align: center;
+    font-size: 18px;
 
 }
+
 .text_perevagu {
-  color: #e9ab00;
+    color: #e9ab00;
 }
 
-.perevagu{
-  background-color: #f4fff0;
-  border: 3px solid #a5d6a7;
-  border-radius: 12px;
-  padding: 20px 30px;
-  margin: 20px auto;
-  max-width: 600px;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.05);}
+.perevagu {
+    background-color: #f4fff0;
+    border: 3px solid #a5d6a7;
+    border-radius: 12px;
+    padding: 20px 30px;
+    margin: 20px auto;
+    max-width: 600px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
 
 .perevagu h1 {
-  color: #fbc02d;
-  margin-bottom: 10px;
+    color: #fbc02d;
+    margin-bottom: 10px;
 }
 
-.perevagu ul{list-style: none;
-  padding: 0;}
-.perevagu li {margin: 8px 0;
-  display: flex;
-  align-items: center;
-  gap: 8px;}
-.perevagu li::before{content: "✔️";
-  color: #66bb6a;}
+.perevagu ul {
+    list-style: none;
+    padding: 0;
+}
+
+.perevagu li {
+    margin: 8px 0;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.perevagu li::before {
+    content: "✔️";
+    color: #66bb6a;
+}
 
 
 .protabir_golovne{
@@ -69,102 +81,110 @@ max-width: 800px;
   padding: 0 20px;
   font-size: 16px;
   text-align: justify;
-  background-image: linear-gradient(to top, white, #e1feca, white);
+  background-image: linear-gradient(to top, rgb(228, 255, 255), #e1feca, rgb(228, 255, 255));
 }
 
 .register {
-  display: inline-block;
-  background-color: #66bb6a;
-  color: #ffffff;
-  text-decoration: none;
-  padding: 14px 28px;
-  font-size: 18px;
-  font-weight: bold;
-  border-radius: 30px;
-  box-shadow: 0 4px 10px rgba(0, 100, 0, 0.2);
-  transition: background-color 0.3s, transform 0.2s;
-  text-align: center;
-  
+    display: inline-block;
+    background-color: #66bb6a;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 14px 28px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 30px;
+    box-shadow: 0 4px 10px rgba(0, 100, 0, 0.2);
+    transition: background-color 0.3s, transform 0.2s;
+    text-align: center;
+
 }
 
 .register:hover {
-  background-color: #43a047;
-  transform: scale(1.05);
-  box-shadow: 0 6px 14px rgba(0, 100, 0, 0.3);
+    background-color: #43a047;
+    transform: scale(1.05);
+    box-shadow: 0 6px 14px rgba(0, 100, 0, 0.3);
 }
 
-.price {
-  padding: 20px;
-  background-color: #f8f9fa;
-  border-radius: 16px;
-  max-width: 600px;
-  margin: 20px auto;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-}
-
-.price h2 {
-  text-align: center;
-  margin-bottom: 16px;
-  color: #fbc02d;
-  cursor: pointer;
-  user-select: none;
-  transition: color 0.3s;
-}
-
-.price h2:hover {
-  color: #a88300;
-}
-
-.price table {
-  width: 100%;
-  border-collapse: collapse;
-  transition: 0.3s ease;
-}
-
-.price th,
-.price td {
-  padding: 12px 16px;
-  border: 1px solid #ccc;
-  text-align: center;
-}
-
-.price th {
-  background-color: #3c8600;
-  color: #fff;
-}
-
-.price tr:nth-child(even) {
-  background-color: #e0f2e2;
-}
-
-#priceTable {
-  overflow: hidden;
-  transition: max-height 0.5s ease;
-  max-height: 1000px;
-}
-
-#priceTable.table {
-  max-height: 0;
-  padding: 0;
-}
-
-nav {
-  width: 85%;
+.pic1karpaty{
   display: flex;
   justify-content: center;
+  width: 800px;
+  height: 400px;
+  margin-left: 354px;
+  border-radius: 20px;
+  margin-bottom: 80px;}
+
+.prices {
+      padding: 20px;
+      background-color: #f8f9fa;
+      border-radius: 16px;
+      max-width: 600px;
+      margin: 20px auto;
+      box-shadow: 0 4px 12px #dbdbdb;
+      font-family: Arial, sans-serif;
+    }
+
+    .prices h2 {
+      text-align: center;
+      margin-bottom: 16px;
+      color: #fbc02d;
+      cursor: pointer;
+      user-select: none;
+      transition: color 0.3s;
+    }
+
+    .prices h2:hover {
+      color: #ab9100;
+    }
+
+    .prices table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+
+    .prices th,
+    .prices td {
+      padding: 12px 16px;
+      border: 1px solid #ccc;
+      text-align: center;
+    }
+
+    .prices th {
+      background-color: #3c8600;
+      color: #fff;
+    }
+
+    .prices tr:nth-child(even) {
+      background-color: #e0f2e2;
+    }
+
+    #priceTable {
+      overflow: hidden;
+      max-height: 0;
+      transition: max-height 0.5s ease;
+    }
+
+    #priceTable.show {
+      max-height: 1000px;}
+
+nav {
+    width: 85%;
+    display: flex;
+    justify-content: center;
 }
 
 nav a {
-  margin: 0px 65px;
-  padding: 5px 10px;
-  border-radius: 30px;
-  box-shadow: 0 4px 8px rgba(0, 3, 7, 0.5);
+    margin: 0px 65px;
+    padding: 5px 10px;
+    border-radius: 30px;
+    box-shadow: 0 4px 8px rgba(0, 3, 7, 0.5);
 }
 
 body {
   @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=Share+Tech&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
    font-family: "Source Code Pro", monospace;
   margin: 0;
+  background-color: rgb(228, 255, 255);
 }
 
 .more_info:hover{
@@ -219,26 +239,4 @@ footer a:hover {
 footer img {
     width: 25px;
     margin: 5px;
-}
-
-.register {
-    display: inline-block;
-    background-color: #66bb6a;
-    color: #ffffff;
-    text-decoration: none;
-    padding: 10px;
-    width: 180px;
-    font-size: 18px;
-    font-weight: bold;
-    border-radius: 30px;
-    box-shadow: 0 4px 10px rgba(0, 100, 0, 0.2);
-    transition: background-color 0.3s, transform 0.2s;
-    text-align: center;
-
-}
-
-.register:hover {
-    background-color: #43a047;
-    transform: scale(1.05);
-    box-shadow: 0 6px 14px rgba(0, 100, 0, 0.3);
 }

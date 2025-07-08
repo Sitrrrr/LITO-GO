@@ -3,9 +3,10 @@
   height: 135px;
 }
 
-header{
-    background-color: #A2FF55;
-    margin-bottom: 20px;}
+header {
+  background-color: #A2FF55;
+  margin-bottom: 20px;
+}
 
 header {
   background-color: #a2ff55;
@@ -13,6 +14,7 @@ header {
   align-items: center;
 
 }
+
 header a {
   border: 3px solid #3c8600;
   background-color: #387c00;
@@ -39,6 +41,7 @@ body {
   @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=Share+Tech&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
    font-family: "Source Code Pro", monospace;
   margin: 0;
+  background-color: rgb(228, 255, 255);
 }
 
 .schedule-container {
@@ -81,7 +84,7 @@ body {
   border-radius: 12px;
   padding: 25px 30px;
   box-shadow: 0 4px 10px rgba(102, 187, 106, 0.2);
-  
+
 }
 
 .info-box p {
@@ -90,9 +93,12 @@ body {
   line-height: 1.6;
 }
 
-.theme{text-align: center;
-font-size: 30px;
-padding: 30px 20px;}
+.theme {
+  text-align: center;
+  font-size: 30px;
+  padding: 30px 20px;
+}
+
 .theme-days {
   max-width: 1000px;
   margin: 50px auto;
@@ -121,64 +127,75 @@ padding: 30px 20px;}
   border-left: 6px solid #aed581;
   padding: 15px 20px;
   border-radius: 12px;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
   transition: transform 0.2s ease;
+  height: 90px;
 }
 
 .day-card:hover {
   transform: translateY(-4px);
 }
 
-.day-card h3 {
+.day-card a {
   color: #33691e;
-  font-size: 18px;
+  font-size: 20px;
   margin-bottom: 10px;
+  text-decoration: none;
+  background-image: linear-gradient(to right, rgb(228, 255, 255), #abff66, rgb(228, 255, 255));
 }
 
 .day-card p {
-  font-size: 15px;
+  font-size: 17px;
   color: #4e4e4e;
   margin: 0;
 }
 
- .aktiv {
-      background: linear-gradient(90deg, #cde990, #f5e678);
-      color: #2d3a10;
-      cursor: pointer;
-      padding: 18px 20px;
-      width: 100%;
-      border: none;
-      text-align: left;
-      font-size: 18px;
-      font-weight: bold;
-      border-radius: 12px;
-      transition: background-color 0.3s ease;
-      box-shadow: 0 4px 10px rgba(60, 80, 40, 0.2);
-    }
+.aktiv {
+  background: linear-gradient(90deg, #cde990, #f5e678);
+  color: #2d3a10;
+  cursor: pointer;
+  padding: 18px 20px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 12px;
+  transition: background-color 0.3s ease;
+  box-shadow: 0 4px 10px rgba(60, 80, 40, 0.2);
+}
 
-    .aktiv:hover {
-      background: linear-gradient(90deg, #d6f5a3, #fdf187);
-    }
+.aktiv:hover {
+  background: linear-gradient(90deg, #d6f5a3, #fdf187);
+}
 
-    .panel {
-      margin-top: 10px;
-      padding: 15px 20px;
-      background-color: #f1ffe5;
-      border-left: 4px solid #9ccf3b;
-      border-radius: 10px;
-      display: none;
-      box-shadow: inset 0 0 8px rgba(100, 130, 70, 0.1);
-    }
+.panel {
+  margin-top: 10px;
+  padding: 15px 20px;
+  background-color: #f1ffe5;
+  border-left: 4px solid #9ccf3b;
+  border-radius: 10px;
+  display: none;
+  box-shadow: inset 0 0 8px rgba(100, 130, 70, 0.1);
+}
 
-    .panel ul {
-      padding-left: 20px;
-      margin: 0;
-    }
+.panel ul {
+  padding-left: 20px;
+  margin: 0;
+}
 
-    .panel li {
-      margin-bottom: 8px;
-      line-height: 1.6;
-    }
-    .occupation{
-        padding: 30px 20px;
-    }
+.panel li {
+  margin-bottom: 8px;
+  line-height: 1.6;
+}
+
+.occupation {
+  padding: 30px 20px;
+}
+.pic1prog{
+  width: 800px;
+  height: 300px;
+  margin-left: 358px;
+  border: 2px dotted rgb(225, 255, 248);
+  border-radius: 20px;
+}
