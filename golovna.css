@@ -105,60 +105,67 @@ max-width: 800px;
     box-shadow: 0 6px 14px rgba(0, 100, 0, 0.3);
 }
 
-.price {
-    padding: 20px;
-    background-color: #f8f9fa;
-    border-radius: 16px;
-    max-width: 600px;
-    margin: 20px auto;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-}
+.pic1karpaty{
+  display: flex;
+  justify-content: center;
+  width: 800px;
+  height: 400px;
+  margin-left: 354px;
+  border-radius: 20px;
+  margin-bottom: 80px;}
 
-.price h2 {
-    text-align: center;
-    margin-bottom: 16px;
-    color: #fbc02d;
-    cursor: pointer;
-    user-select: none;
-    transition: color 0.3s;
-}
+.prices {
+      padding: 20px;
+      background-color: #f8f9fa;
+      border-radius: 16px;
+      max-width: 600px;
+      margin: 20px auto;
+      box-shadow: 0 4px 12px #dbdbdb;
+      font-family: Arial, sans-serif;
+    }
 
-.price h2:hover {
-    color: #a88300;
-}
+    .prices h2 {
+      text-align: center;
+      margin-bottom: 16px;
+      color: #fbc02d;
+      cursor: pointer;
+      user-select: none;
+      transition: color 0.3s;
+    }
 
-.price table {
-    width: 100%;
-    border-collapse: collapse;
-    transition: 0.3s ease;
-}
+    .prices h2:hover {
+      color: #ab9100;
+    }
 
-.price th,
-.price td {
-    padding: 12px 16px;
-    border: 1px solid #ccc;
-    text-align: center;
-}
+    .prices table {
+      width: 100%;
+      border-collapse: collapse;
+    }
 
-.price th {
-    background-color: #3c8600;
-    color: #fff;
-}
+    .prices th,
+    .prices td {
+      padding: 12px 16px;
+      border: 1px solid #ccc;
+      text-align: center;
+    }
 
-.price tr:nth-child(even) {
-    background-color: #e0f2e2;
-}
+    .prices th {
+      background-color: #3c8600;
+      color: #fff;
+    }
 
-#priceTable {
-    overflow: hidden;
-    transition: max-height 0.5s ease;
-    max-height: 1000px;
-}
+    .prices tr:nth-child(even) {
+      background-color: #e0f2e2;
+    }
 
-#priceTable.table {
-    max-height: 0;
-    padding: 0;
-}
+    #priceTable {
+      overflow: hidden;
+      max-height: 0;
+      transition: max-height 0.5s ease;
+    }
+
+    #priceTable.show {
+      max-height: 1000px;}
 
 nav {
     width: 85%;
