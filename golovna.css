@@ -182,17 +182,6 @@ body {
 .more_info:hover{
 color: #3f9643;
 }
-
-.pic1karpaty{
-  display: flex;
-  justify-content: center;
-  width: 800px;
-  height: 400px;
-  margin-left: 354px;
-  border-radius: 20px;
-  margin-bottom: 80px;
-  
-}
 .hidden{
   display: none;
 }
@@ -231,4 +220,14 @@ footer a:hover {
 footer img {
     width: 25px;
     margin: 5px;
+}
+
+.pic1karpaty{
+  display: flex;
+  justify-content: center;
+  width: 800px;
+  height: 400px;
+  margin-left: 354px;
+  border-radius: 20px;
+  margin-bottom: 80px;
 }
