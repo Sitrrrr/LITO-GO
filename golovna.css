@@ -84,26 +84,9 @@ max-width: 800px;
   background-image: linear-gradient(to top, rgb(228, 255, 255), #e1feca, rgb(228, 255, 255));
 }
 
-.register {
-    display: inline-block;
-    background-color: #66bb6a;
-    color: #ffffff;
-    text-decoration: none;
-    padding: 14px 28px;
-    font-size: 18px;
-    font-weight: bold;
-    border-radius: 30px;
-    box-shadow: 0 4px 10px rgba(0, 100, 0, 0.2);
-    transition: background-color 0.3s, transform 0.2s;
-    text-align: center;
 
-}
 
-.register:hover {
-    background-color: #43a047;
-    transform: scale(1.05);
-    box-shadow: 0 6px 14px rgba(0, 100, 0, 0.3);
-}
+
 
 .pic1karpaty{
   display: flex;
@@ -208,7 +191,7 @@ color: #3f9643;
 
 footer{
   background-color: #cadcbb;
-  height: 180px;
+  height: 190px;
   display: flex;
   flex-direction: column;
   padding: 20px;
@@ -239,4 +222,9 @@ footer a:hover {
 footer img {
     width: 25px;
     margin: 5px;
+}
+.tel{
+  text-align: right;
+  font-size: 19px;
+  margin-right: 30px;
 }
