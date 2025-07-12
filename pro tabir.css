@@ -34,6 +34,7 @@ nav a {
   padding: 5px 10px;
   border-radius: 30px;
   box-shadow: 0 4px 8px rgba(0, 3, 7, 0.5);
+  transition: 0.4s;
 }
 
 body {
